@@ -7,7 +7,6 @@ describe('Fabricador', function() {
     it('Instanciar una Factura Iva', function() {
       const c = FabricaFacturas.crearFactura("iva");
       expect(c instanceof FacturaIva).equal(true);
-      
     });
   });
 
